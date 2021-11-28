@@ -1,0 +1,377 @@
+// importing all needed files
+@import "fonts.scss";
+@import "varibles.scss";
+@import "mixins.scss";
+@import "functions.scss";
+
+// common styles
+html {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1120px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.head-section {
+  @include semi-bold(32, 36.48px);
+  color: $head;
+  margin-bottom: 10px;
+}
+
+.head-section::after {
+  content: "";
+  width: 76px;
+  height: 3px;
+  background-color: $red;
+}
+
+header {
+  background-color: $background_first_section;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    cursor: pointer;
+    margin-bottom: 114px;
+    .line {
+      background-color: $red;
+      width: 47px;
+      padding-top: 4px;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 556px;
+    margin-bottom: 195px;
+    text-align: center;
+    width: 300px;
+
+    .head-wrapper {
+      border-top: solid 2px $red;
+      border-bottom: solid 2px $red;
+      padding: 0px 54px;
+
+      .head {
+        @include medium(36, 68);
+        color: $white;
+      }
+    }
+    .text {
+      @include medium(18, 36.48);
+      color: $white;
+      margin-bottom: 44px;
+    }
+
+    .main-btn {
+      @include main-btn(170, 22px, 46.48px);
+      border-radius: 3px;
+      padding: 0 37px;
+      cursor: pointer;
+    }
+  }
+}
+
+.about-me {
+  padding-top: 75px;
+  background-color: $background;
+
+  .container {
+    display: flex;
+    align-items: flex-end;
+
+    .info-line {
+      display: flex;
+      background-color: $white;
+      border-bottom: solid 1px $box-color;
+    }
+
+    .text {
+      @include medium(18, 36);
+    }
+
+    .descrp {
+      font-size: 16px;
+      line-height: 26px;
+      color: $color-altern;
+      margin-bottom: 10px;
+    }
+
+    .grey {
+      color: $color-altern;
+    }
+
+    .quest {
+      color: $name;
+    }
+
+    .profile-photo {
+      width: 350px;
+      padding-bottom: 420px;
+      background-color: $background_first_section;
+      margin-left: 192px;
+    }
+  }
+}
+
+.experience {
+  margin: 79px 0px 0px 0px;
+  .head-section {
+    margin-bottom: 65px;
+  }
+
+  .mark-up {
+    border-bottom: solid 1px $box-color;
+  }
+  .section-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 81px;
+
+    .medium {
+      @include medium(22px, 68px);
+    }
+
+    .regular {
+      @include regular(16px, 28px);
+    }
+
+    .title {
+      display: flex;
+      column-gap: 29px;
+      margin-bottom: 17px;
+    }
+
+    .job-title {
+      color: $white;
+    }
+
+    .tag {
+      font-size: 16px;
+      color: $color-altern;
+    }
+
+    .date {
+      color: $red;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-bottom: 19px;
+    }
+    .text {
+      color: $box-color;
+      font-size: 13px;
+      line-height: 28px;
+    }
+
+    .branch {
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 18px 137px 23px 0;
+    }
+
+    .right {
+      background-image: url(../img/Rounded_Rectangle_right.png);
+      padding-left: 64px;
+    }
+
+    .left {
+      background-image: url(../img/Rounded_Rectangle_left.png);
+      padding-left: 22px;
+    }
+
+    .creative-director {
+      margin: 90px 0 168px 0;
+    }
+
+    .designer {
+      margin-top: -13px;
+      margin-bottom: 172px;
+    }
+  }
+
+  .middle-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .dot {
+      width: 90%;
+      height: auto;
+    }
+
+    .line {
+      width: 1px;
+      background-color: $black;
+    }
+
+    .line1 {
+      padding-top: 160px;
+    }
+
+    .line2 {
+      padding-top: 97px;
+    }
+
+    .line3 {
+      padding-top: 158px;
+    }
+  }
+}
+
+.skills {
+  background-color: $background_last_section;
+  padding: 65px 0 67px 0;
+
+  .head-section {
+    margin-bottom: 45px;
+    color: $white;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .medium {
+    @include medium(18px, 32px);
+    color: $background;
+  }
+
+  .title {
+    margin-bottom: 23px;
+  }
+
+  .pair {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 35px;
+  }
+
+  .slider {
+    width: 100%;
+    height: auto;
+  }
+}
+
+footer {
+  padding: 106px 0px 35px 0px;
+
+  .general-info {
+    display: flex;
+    padding-bottom: 81px;
+    border-bottom: solid 1px $box-color;
+
+    .box {
+      display: grid;
+      grid-template-columns: 256px 256px;
+      margin-right: 134px;
+      grid-row-gap: 22px;
+      grid-column-gap: 11px;
+
+      .medium {
+        @include medium(22px, 50px);
+      }
+
+      input::placeholder {
+        @include medium-italic(14px, 50px);
+      }
+
+      .grid {
+        border: solid 1px;
+        padding: 15px 0px 15px 15px;
+      }
+
+      .cell1 {
+        grid-column: span 2;
+        border: none;
+        padding-left: 0px;
+      }
+
+      .cell4 {
+        grid-row: span 3;
+        align-self: baseline;
+        padding-bottom: 155px;
+      }
+
+      .cell7 {
+        grid-column: span 2;
+        justify-self: end;
+        @include main-btn(97, 16px, 10px);
+        padding: 12px;
+        cursor: pointer;
+      }
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: 35px 300px;
+      align-content: flex-start;
+      margin-top: 30px;
+      grid-column-gap: 47px;
+      grid-row-gap: 20px;
+
+      .medium {
+        @include medium(12, 30);
+        color: $font-color;
+      }
+
+      .title {
+        @include medium(15, 30);
+        color: $black;
+      }
+
+      .cell8,
+      .cell11,
+      .cell14 {
+        grid-row: span 2;
+        align-self: center;
+      }
+    }
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+
+    .icons {
+      display: flex;
+      column-gap: 13px;
+      margin-bottom: 17px;
+
+      .icon {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+      }
+      .line {
+        background-color: $box-color;
+        padding-top: 9px;
+        width: 1.4px;
+      }
+    }
+    .medium {
+      @include medium(12, 50);
+      color: $font-color;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17.41" viewBox="0 0 17 17.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #614261;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="683" y="3754.59" width="17" height="17.41" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="683" y="3754.59" width="17" height="17.41" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTciIGhlaWdodD0iMTcuNDEiIHZpZXdCb3g9IjAgMCAxNyAxNy40MSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC4xMzsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjguNSIgeTE9IjE3LjQxIiB4Mj0iOC41IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTciIGhlaWdodD0iMTcuNDEiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-color="#717171"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#000001" flood-opacity="0.21"/>
+      <feComposite result="composite-3" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="1"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+  </defs>
+  <path id="Dribbble_3" data-name="Dribbble 3" class="cls-1" d="M691.614,3772a8.77,8.77,0,0,1-8.62-8.81,8.6,8.6,0,0,1,8.62-8.61,8.4,8.4,0,0,1,8.381,8.61A8.571,8.571,0,0,1,691.614,3772Zm7.1-7.62a9.724,9.724,0,0,0-4.418-.31,32.011,32.011,0,0,1,1.43,5.28A7.2,7.2,0,0,0,698.716,3764.38Zm-4.226,5.65a30.88,30.88,0,0,0-1.57-5.62c-0.017,0-.033.01-0.049,0.01a10.092,10.092,0,0,0-5.776,4.64A6.164,6.164,0,0,0,694.49,3770.03Zm-8.346-1.87a11.769,11.769,0,0,1,5.985-4.89l0.29-.09c-0.185-.42-0.386-0.84-0.6-1.26a27.278,27.278,0,0,1-7.567,1.06c0,0.07,0,.15,0,0.22A7.4,7.4,0,0,0,686.144,3768.16Zm-1.737-6.47a27.747,27.747,0,0,0,6.807-.91,47.7,47.7,0,0,0-2.8-4.36A7.458,7.458,0,0,0,684.407,3761.69Zm5.482-5.7a39.958,39.958,0,0,1,2.747,4.35,8.729,8.729,0,0,0,3.931-2.75,7.449,7.449,0,0,0-4.953-1.87A7.573,7.573,0,0,0,689.889,3755.99Zm7.5,2.45a10.166,10.166,0,0,1-4.184,3c0.172,0.35.336,0.71,0.489,1.07,0.054,0.13.107,0.26,0.158,0.39a16.516,16.516,0,0,1,5.031.23A7.479,7.479,0,0,0,697.386,3758.44Z" transform="translate(-683 -3754.59)"/>
+</svg>
