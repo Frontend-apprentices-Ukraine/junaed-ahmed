@@ -24,9 +24,13 @@ img {
   font-weight: 600;
   color: #3e3e3e;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .head-section::after {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
   content: "";
   width: 76px;
   height: 3px;
@@ -520,5 +524,123 @@ footer .contact-info .medium {
   line-height: 3.125rem;
   font-weight: 500;
   color: #777777;
+}
+
+@media screen and (max-width: 1050px) {
+  .head-section::after {
+    display: none;
+  }
+  header .introduction {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .introduction .menu {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  header .introduction .content {
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+  .about-me {
+    padding-bottom: 75px;
+  }
+  .about-me .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about-me .container .info {
+    margin-bottom: 45px;
+  }
+  .about-me .container .info .head-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .about-me .container .profile-photo {
+    margin: 0px;
+  }
+  .experience .head-section {
+    text-align: center;
+  }
+  .experience .section-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .experience .section-content .creative-director {
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+  .experience .section-content .designer {
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+  .experience .section-content .left-tree {
+    margin-bottom: 50px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .experience .section-content .middle-tree {
+    display: none;
+  }
+  .experience .section-content .right-tree {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 50px;
+  }
+  .experience .section-content .right {
+    width: 350px;
+  }
+  .experience .section-content .left {
+    width: 380px;
+  }
+  .skills .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skills .container .flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .general-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .general-info .box {
+    margin: 0px;
+  }
+  footer .container .general-info .box .cell1 {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

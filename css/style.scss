@@ -27,9 +27,13 @@ img {
   @include semi-bold(32, 36.48px);
   color: $head;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .head-section::after {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
   content: "";
   width: 76px;
   height: 3px;
@@ -372,6 +376,111 @@ footer {
     .medium {
       @include medium(12, 50);
       color: $font-color;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .head-section::after {
+    display: none;
+  }
+  header {
+    .introduction {
+      justify-content: center;
+      align-items: center;
+      .menu {
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+      .content {
+        margin: 0px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .about-me {
+    padding-bottom: 75px;
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .info {
+        margin-bottom: 45px;
+        .head-section{
+          text-align: center;
+          margin-bottom: 50px;
+        }
+      }
+      .profile-photo {
+        margin: 0px;
+      }
+    }
+  }
+  .experience {
+    .head-section {
+      text-align: center;
+    }
+    
+    .section-content {
+      flex-direction: column;
+
+      .creative-director {
+        margin: 0px;
+        margin-bottom: 50px;
+      }
+
+      .designer {
+        margin: 0px;
+        margin-bottom: 50px;
+      }
+
+      .left-tree {
+        margin-bottom: 50px;
+        align-self: center;
+      }
+
+      .middle-tree {
+        display: none;
+      }
+
+      .right-tree {
+        align-self: center;
+        margin-right: 50px;
+      }
+
+      .right {
+        width: 350px;
+      }
+
+      .left {
+        width: 380px;
+      }
+    }
+  }
+  .skills {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .flex-container {
+        flex-direction: column;
+      }
+    }
+  }
+  footer {
+    .container {
+      .general-info {
+        flex-direction: column;
+        align-items: center;
+
+        .box{
+          margin: 0px;
+          .cell1{
+            text-align: center;
+          }
+        }
+      }
     }
   }
 }
