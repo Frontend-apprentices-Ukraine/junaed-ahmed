@@ -406,7 +406,7 @@ footer {
       align-items: center;
       .info {
         margin-bottom: 45px;
-        .head-section{
+        .head-section {
           text-align: center;
           margin-bottom: 50px;
         }
@@ -420,7 +420,7 @@ footer {
     .head-section {
       text-align: center;
     }
-    
+
     .section-content {
       flex-direction: column;
 
@@ -474,11 +474,45 @@ footer {
         flex-direction: column;
         align-items: center;
 
-        .box{
+        .box {
           margin: 0px;
-          .cell1{
+          .cell1 {
             text-align: center;
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .experience {
+    .section-content {
+      .right {
+        width: 150px;
+      }
+
+      .left {
+        width: 180px;
+      }
+      .left-tree {
+        .branch {
+          padding: 18px 120px 23px 60px;
+        }
+      }
+      .right-tree {
+        .branch {
+          padding: 18px 120px 23px 60px;
+        }
+      }
+    }
+  }
+
+  footer {
+    .container {
+      .general-info {
+        .box {
+          grid-template-columns: 180px;
         }
       }
     }
