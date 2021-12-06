@@ -512,7 +512,10 @@ footer {
     .container {
       .general-info {
         .box {
-          grid-template-columns: 180px;
+          grid-template-columns: 150px;
+        }
+        .info {
+          grid-template-columns: 35px 200px;
         }
       }
     }
