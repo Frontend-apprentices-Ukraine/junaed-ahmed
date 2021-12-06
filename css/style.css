@@ -646,13 +646,18 @@ footer .contact-info .medium {
 
 @media screen and (max-width: 450px) {
   .experience .section-content .right {
-    width: 150px;
+    background-color: #353541;
+    width: 180px;
   }
   .experience .section-content .left {
+    background-color: #353541;
     width: 180px;
   }
   .experience .section-content .left-tree .branch {
     padding: 18px 120px 23px 60px;
+  }
+  .experience .section-content .right-tree {
+    margin-right: 0px;
   }
   .experience .section-content .right-tree .branch {
     padding: 18px 120px 23px 60px;

@@ -489,10 +489,12 @@ footer {
   .experience {
     .section-content {
       .right {
-        width: 150px;
+        background-color: #353541;
+        width: 180px;
       }
 
       .left {
+        background-color: #353541;
         width: 180px;
       }
       .left-tree {
@@ -501,6 +503,7 @@ footer {
         }
       }
       .right-tree {
+        margin-right: 0px;
         .branch {
           padding: 18px 120px 23px 60px;
         }
