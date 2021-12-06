@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.25" height="16.22" viewBox="0 0 17.25 16.22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #614261;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="637.688" y="3755.19" width="17.25" height="16.22" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="637.688" y="3755.19" width="17.25" height="16.22" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTcuMjUiIGhlaWdodD0iMTYuMjIiIHZpZXdCb3g9IjAgMCAxNy4yNSAxNi4yMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC4xMzsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjguNjI1IiB5MT0iMTYuMjIiIHgyPSI4LjYyNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjE3LjI1IiBoZWlnaHQ9IjE2LjIyIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+      <feFlood result="flood" flood-color="#717171"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur" stdDeviation="1" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#000001" flood-opacity="0.21"/>
+      <feComposite result="composite-3" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="1"/>
+      <feComposite result="composite-4" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" mode="multiply" in2="blend-2"/>
+    </filter>
+  </defs>
+  <path id="Skype" class="cls-1" d="M645.082,3755.87a4.84,4.84,0,0,0-2.382-.68,4.7,4.7,0,0,0-3.789,7.86,0.881,0.881,0,0,0-.044.23,7.518,7.518,0,0,0,7.486,7.55c0.365,0,1.2-.1,1.2-0.1l0.071,0.04a4.041,4.041,0,0,0,2.382.63,4.921,4.921,0,0,0,4.925-4.84,4.854,4.854,0,0,0-1.046-2.97l-0.049-.11c0-.06,0-0.13,0-0.2a7.516,7.516,0,0,0-7.486-7.54,7.073,7.073,0,0,0-1.225.11Zm1.474,2.14a5.356,5.356,0,0,0-2.8.91,2.826,2.826,0,0,0-1.486,2.31,2.356,2.356,0,0,0,1.361,2.14,6.83,6.83,0,0,0,2.6.76,2.645,2.645,0,0,1,1.982.85,0.975,0.975,0,0,1,0,1.17,2.235,2.235,0,0,1-1.928.63,4.191,4.191,0,0,1-2.731-1.13,0.85,0.85,0,0,0-1.237.01,0.816,0.816,0,0,0-.176,1.29,5.349,5.349,0,0,0,1.728,1.18,7.772,7.772,0,0,0,2.747.42,5.206,5.206,0,0,0,3.035-.9,2.577,2.577,0,0,0,1.3-2.14,2.479,2.479,0,0,0-1.22-2.31,6.273,6.273,0,0,0-2.716-.86,3.838,3.838,0,0,1-1.943-.68,1.116,1.116,0,0,1-.054-1.27,2.058,2.058,0,0,1,2.033-.57,5.093,5.093,0,0,1,2.042,1.06,0.942,0.942,0,0,0,1.059-1.5,2.743,2.743,0,0,0-1.051-.84,6.9,6.9,0,0,0-2.551-.53h0Z" transform="translate(-637.688 -3755.19)"/>
+</svg>

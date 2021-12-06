@@ -1,0 +1,44 @@
+@import "varibles.scss";
+@import "functions.scss";
+
+@mixin regular($fs, $lh) {
+  font-family: $raleway;
+  font-size: calc_size($fs);
+  line-height: calc_size($lh);
+  font-weight: 400;
+}
+@mixin semi-bold($fs, $lh) {
+  font-family: $raleway;
+  font-size: calc_size($fs);
+  line-height: calc_size($lh);
+  font-weight: 600;
+}
+@mixin medium($fs, $lh) {
+  font-family: $raleway;
+  font-size: calc_size($fs);
+  line-height: calc_size($lh);
+  font-weight: 500;
+}
+@mixin medium-italic($fs, $lh) {
+  font-family: $raleway;
+  font-size: calc_size($fs);
+  line-height: calc_size($lh);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@mixin medium-btn {
+  font-family: $raleway;
+  font-weight: 500;
+  color: $white;
+}
+
+@mixin main-btn($w, $fs, $lh) {
+  @include medium-btn;
+  background-color: $red;
+  max-width: $w;
+  font-size: $fs;
+  line-height: $lh;
+  border: none;
+  align-self: center;
+}

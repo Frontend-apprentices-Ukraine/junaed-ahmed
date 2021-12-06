@@ -1,0 +1,4 @@
+@function calc_size($result) {
+  $size: ($result/16) + rem;
+  @return $size;
+}
